@@ -1,0 +1,45 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\function.py", line 4, in <module>
+    import mediapipe as mp
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\mediapipe\__init__.py", line 15, in <module>
+    import mediapipe.tasks.python as tasks
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\mediapipe\tasks\python\__init__.py", line 17, in <module>
+    from . import audio
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\mediapipe\tasks\python\audio\__init__.py", line 18, in <module>
+    import mediapipe.tasks.python.audio.audio_classifier
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\mediapipe\tasks\python\audio\audio_classifier.py", line 21, in <module>
+    from mediapipe.tasks.python.audio.core import audio_task_running_mode
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\mediapipe\tasks\python\audio\core\audio_task_running_mode.py", line 19, in <module>
+    from mediapipe.tasks.python.core.optional_dependencies import doc_controls
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\mediapipe\tasks\python\core\optional_dependencies.py", line 20, in <module>
+    from tensorflow.tools.docs import doc_controls
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\tensorflow\__init__.py", line 49, in <module>
+    from tensorflow._api.v2 import __internal__
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\tensorflow\_api\v2\__internal__\__init__.py", line 8, in <module>
+    from tensorflow._api.v2.__internal__ import autograph
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\tensorflow\_api\v2\__internal__\autograph\__init__.py", line 8, in <module>
+    from tensorflow.python.autograph.core.ag_ctx import control_status_ctx # line: 34
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\tensorflow\python\autograph\core\ag_ctx.py", line 21, in <module>
+    from tensorflow.python.autograph.utils import ag_logging
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\tensorflow\python\autograph\utils\__init__.py", line 17, in <module>
+    from tensorflow.python.autograph.utils.context_managers import control_dependency_on_returns
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\tensorflow\python\autograph\utils\context_managers.py", line 19, in <module>
+    from tensorflow.python.framework import ops
+  File "C:\Users\Nikita\OneDrive\Attachments\Desktop\Sign_Bridge_final\SignBridge1\python_service\venv\lib\site-packages\tensorflow\python\framework\ops.py", line 5950, in <module>
+    ) -> Optional[Callable[[Any], message.Message]]:
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python39\lib\typing.py", line 243, in inner
+    return func(*args, **kwds)
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python39\lib\typing.py", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python39\lib\typing.py", line 433, in Optional
+    return Union[arg, type(None)]
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python39\lib\typing.py", line 243, in inner
+    return func(*args, **kwds)
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python39\lib\typing.py", line 316, in __getitem__
+    return self._getitem(self, parameters)
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python39\lib\typing.py", line 421, in Union
+    parameters = _remove_dups_flatten(parameters)
+  File "C:\Users\Nikita\AppData\Local\Programs\Python\Python39\lib\typing.py", line 215, in _remove_dups_flatten
+    all_params = set(params)
+TypeError: unhashable type: 'list'
