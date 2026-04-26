@@ -1,4 +1,4 @@
-                                           SignBridge - Bidirectional Sign Language Translation System
+                                    SignBridge - Bidirectional Sign Language Translation System
 
 SignBridge is a real-time AI-powered web application that bridges communication between sign language users and non-signers by converting:
 
